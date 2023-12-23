@@ -1,0 +1,56 @@
+import { useRouter } from "next/router";
+import { useState, useEffect, useRef } from "react"
+import { IoArrowBack } from "react-icons/io5";
+import BackArrow, { useBackArrowTransitions } from "../../components/core/BackArrow";
+import { PageContainer } from "../../components/core/Container";
+import Staggered from "../../components/core/Staggered";
+import pages from "../../api/pages.json";
+
+export default function Technology({ mainBoxController }) {
+
+       let [cls, setCls] = useState('hidden');
+       let backArrowRef = useRef();
+       let router = useRouter();
+
+       useBackArrowTransitions(backArrowRef, backArrowRef);
+
+       useEffect(() => {
+              mainBoxController.maximize();
+       }, [mainBoxController]);
+
+       const onBack = () => {
+              router.push('/');
+       };
+
+
+       return (
+              <PageContainer className={cls}>
+                     <BackArrow onClick={onBack} ref={backArrowRef}>
+                            <IoArrowBack size={23} color="rgb(26,11,51)"></IoArrowBack>
+                     </BackArrow>
+                     <Staggered>
+                            <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis earum unde molestiae tempore cum. Dignissimos unde blanditiis quos pariatur rerum eligendi fugiat reprehenderit repellat quia reiciendis eum, obcaecati officia facilis totam molestias.
+                            </p>
+                            <p>Aspernatur cum eum quibusdam voluptate aliquam, reprehenderit enim, deleniti consequuntur hic cupiditate facilis at? Adipisci quia, sunt amet at reiciendis odio error repellendus corrupti ducimus, rerum necessitatibus laboriosam expedita, soluta ipsam maxime officia iusto ea officiis!
+                            </p>
+                            <p>
+                                   Accusantium asperiores eveniet sapiente nobis amet consectetur rerum, in autem cupiditate. Accusantium praesentium tenetur sapiente voluptate, provident voluptas corporis, quisquam rem, assumenda ad quo fugit nisi? Dolore a dolor iusto eaque sapiente?
+                            </p><p>
+                                   Accusantium asperiores eveniet sapiente nobis amet consectetur rerum, in autem cupiditate. Accusantium praesentium tenetur sapiente voluptate, provident voluptas corporis, quisquam rem, assumenda ad quo fugit nisi? Dolore a dolor iusto eaque sapiente?
+                            </p><p>
+                                   Accusantium asperiores eveniet sapiente nobis amet consectetur rerum, in autem cupiditate. Accusantium praesentium tenetur sapiente voluptate, provident voluptas corporis, quisquam rem, assumenda ad quo fugit nisi? Dolore a dolor iusto eaque sapiente?
+                            </p>
+                     </Staggered>
+
+              </PageContainer>
+       )
+}
+
+export async function getStaticProps(context) {
+       return {
+              props: {
+                     menuItems: pages
+              }
+       }
+}

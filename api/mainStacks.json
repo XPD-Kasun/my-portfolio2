@@ -1,0 +1,26 @@
+[
+       {
+              "id": 1,
+              "name": "React",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+              "background": "/reactbackground.png",
+              "introColor": "#16327d",
+              "path": "/react"
+       },
+       {
+              "id": 2,
+              "name": ".NET",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+              "background": "/keyboard.png",
+              "introColor": "#16327d",
+              "path": "/dotnet"
+       },
+       {
+              "id": 3,
+              "name": "NodeJS",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+              "background": "/iWatch.png",
+              "introColor": "#16327d",
+              "path": "/nodejs"
+       }
+]

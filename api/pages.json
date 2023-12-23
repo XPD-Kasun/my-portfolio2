@@ -1,0 +1,20 @@
+[
+       {
+              "id": 1,
+              "name": "aboutme",
+              "text": "About Me",
+              "url": "/about-me"
+       },
+       {
+              "id": 2,
+              "name": "familiarwith",
+              "text": "What I'm familiar with",
+              "url": "/technology"
+       },
+       {
+              "id": 3,
+              "name": "contactme",
+              "text": "Contact Me",
+              "url": "/contact-me"
+       }
+]

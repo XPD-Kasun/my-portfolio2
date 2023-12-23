@@ -1,0 +1,66 @@
+[
+       {
+              "id": 1,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+              "name": "Go",
+              "detail": "Programming Language",
+              "progress": 20,
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 3,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/320px-Amazon_Web_Services_Logo.svg.png",
+              "name": "AWS",
+              "progress": 40,
+              "detail": "Solution Architect Associate",
+              "cardbg": "linear-gradient(135deg, #26d1c0, #065e2f)"
+       },
+       {
+              "id": 3,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png",
+              "name": "Python",
+              "detail": "Language of Future",
+              "progress": 90,
+              "cardbg": "linear-gradient(135deg, #ffeb3b, #3f51b5)"
+       },
+       {
+              "id": 4,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/320px-Flask_logo.svg.png",
+              "name": "Flask",
+              "detail": "Python Web App Framework",
+              "progress": 5,
+              "cardbg": "linear-gradient(135deg, #ff9800, #d99f59)"
+       },
+       {
+              "id": 5,
+              "img": "https://upload.wikimedia.org/wikiversity/en/thumb/8/8c/FastAPI_logo.png/320px-FastAPI_logo.png",
+              "name": "FastApi",
+              "detail": "Python Rest API",
+              "progress": 5,
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 6,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Apache_kafka_wordtype.svg/320px-Apache_kafka_wordtype.svg.png",
+              "name": "Kafka",
+              "detail": "Using NodeJS",
+              "progress": 20,
+              "cardbg": "linear-gradient(135deg, #26d155, #162B77)"
+       },
+       {
+              "id": 7,
+              "img": "https://upload.wikimedia.org/wikipedia/labs/thumb/b/ba/Kubernetes-icon-color.svg/247px-Kubernetes-icon-color.svg.png",
+              "name": "Kubernetes",
+              "detail": "Container Orchestration",
+              "progress": 20,
+              "cardbg": "linear-gradient(135deg, #2693d1, #0e247f)"
+       },
+       {
+              "id": 8,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/216px-Gnu-bash-logo.svg.png",
+              "name": "Shell Scripting",
+              "detail": "Bash",
+              "progress": 7,
+              "cardbg": "linear-gradient(135deg, #f2adad, #935917)"
+       }
+]

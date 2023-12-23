@@ -1,0 +1,114 @@
+[
+       {
+              "id": 1,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
+              "name": "Redux",
+              "detail": "With RTK(Saga/Thunk)",
+              "cardbg": "linear-gradient(135deg, #26d155e6, #166a77);"
+       },
+       {
+              "id": 2,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png",
+              "name": "GraphQL",
+              "detail": "Apollo",
+              "cardbg": "linear-gradient(135deg, #d126ad, #711677)"
+       },
+       {
+              "id": 3,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+              "name": "Express",
+              "detail": "De facto NodeJS WebApp",
+              "cardbg": "linear-gradient(135deg, #b2af45, #72650b);"
+       },
+       {
+              "id": 4,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1280px-Nextjs-logo.svg.png",
+              "name": "NextJS",
+              "detail": "SSR by Vercel",
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 5,
+              "img": "/logo-small.ede75a6b.svg",
+              "name": "NestJS",
+              "detail": "SSR by Vercel",
+              "cardbg": "linear-gradient(135deg, #fd78ba, #771640)"
+       },
+       {
+              "id": 6,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png",
+              "name": "HTML5+CSS",
+              "detail": "Web Essentials",
+              "cardbg": "linear-gradient(135deg, #d1a826, #a21a1a)"
+       },
+       {
+              "id": 7,
+              "img": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+              "name": "Docker",
+              "detail": "Containers and Micro-Services",
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 8,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/320px-JQuery-Logo.svg.png",
+              "name": "jQuery",
+              "detail": "Low level DOM toolkit",
+              "cardbg": "linear-gradient(135deg, #24ad9a, #0c554d)"
+       },
+       {
+              "id": 9,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/240px-Microsoft_.NET_logo.svg.png",
+              "name": ".NET Forms",
+              "detail": "Native Windows Apps",
+              "cardbg": "linear-gradient(135deg, #d126d1, #341677)"
+       },
+       {
+              "id": 10,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/240px-Socket-io.svg.png",
+              "name": "SocketIO/SignalR",
+              "detail": "Real-time communication",
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 11,
+              "img": "https://user-images.githubusercontent.com/2752551/30404911-d575539c-989d-11e7-9a74-df8533b95c6d.png",
+              "name": "Serverless",
+              "detail": "Lambda based Express",
+              "cardbg": "linear-gradient(135deg, #c8d126, #773116)"
+       },
+       {
+              "id": 12,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/320px-Amazon_Web_Services_Logo.svg.png",
+              "name": "AWS",
+              "detail": "Essential Knowledge",
+              "cardbg": "linear-gradient(135deg, #26d1c0, #065e2f)"
+       },
+       {
+              "id": 13,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/187px-Microsoft_Azure_Logo.svg.png",
+              "name": "Azure",
+              "detail": "Essential Knowledge",
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 14,
+              "img": "/sequelize-logo.png",
+              "name": "EF & Sequelize",
+              "detail": "ORMs",
+              "cardbg": "linear-gradient(135deg, #264CD1, #162B77)"
+       },
+       {
+              "id": 15,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/320px-MongoDB_Logo.svg.png",
+              "name": "MongoDB",
+              "detail": "With Mongoose",
+              "cardbg": "linear-gradient(135deg, #c0d126, #c17823)"
+       },
+       {
+              "id": 16,
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oauth_logo.svg/239px-Oauth_logo.svg.png",
+              "name": "OAuth2",
+              "detail": "Rest API Authentication",
+              "cardbg": "linear-gradient(135deg, #e0d21e, #087808)"
+       }
+]

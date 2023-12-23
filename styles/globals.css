@@ -1,26 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Patua+One&family=Roboto+Mono&display=swap');
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background: black;
+}
+
+@font-face {
+	font-family: Consolas;
+	src: url(/CONSOLA.TTF);
+}
+
+@font-face {
+	font-family: SFMono;
+	src: url(/SFMonoRegular.otf);
+}
+
+h1, h2, h3 {
+	font-family: SFMono;
+}
+
+p {
+	font-size:16px;
+	/* letter-spacing: 1px;
+	word-spacing: 3px; */
+	font-family: 'Roboto Mono', SFMono;
+
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+.scroll-marker {
+	height: 1px;
+	width: 10px;
+}
+
+
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+	html {
+		color-scheme: dark;
+	}
+
+	body {
+		color: white;
+		background: black;
+	}
+}
+
+.app-container {
+	background: black;
+}
+
+@keyframes Float {
+	0% {
+		transform: translateX(0px);
+		
+	}
+	100% {
+		transform: translateX(5px);
+	}
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+	height: 2px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+	width:2px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #7e55c0;
 }
